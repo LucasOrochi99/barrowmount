@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Facções | Academia Barrowmont</title>
+  <meta name="description" content="Facções estudantis da Academia Barrowmont." />
+  <link rel="icon" href="assets/logo-rpg.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="mobile-first-site">
+  <div class="noise"></div>
+
+  <div class="cup-topper" aria-hidden="true">
+    <div class="cup-flags">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="cup-ball">⚽</div>
+  </div>
+
+
+  <header class="page-header" id="topo">
+    <nav class="navbar" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Academia Barrowmont">
+        <img src="assets/logo-rpg.png" alt="Brasão da Academia Barrowmont" />
+        <span>Academia<br />Barrowmont</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="faccoes.html">Facções</a></li>
+        <li><a href="locais.html">Locais da Escola</a></li>
+        <li><a href="nova-aurora.html">Nova Aurora</a></li>
+        <li><a href="aulas.html">Sobre a Escola</a></li>
+        <li><a href="familias.html">Famílias Principais</a></li>
+        <li><a href="livro-alunos.html">Livro de Alunos</a></li>
+        <li><a href="professores.html">Corpo Docente</a></li>
+      </ul>
+    </nav>
+
+    <section class="page-hero reveal">
+<p class="eyebrow">Academia Barrowmont</p>
+      <h1>Facções</h1>
+      <p>Conheça os grupos que disputam influência, respeito e território dentro da Academia Barrowmont.</p>
+    </section>
+  </header>
+
+  <main>
+    <section class="section dark" id="faccoes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Os grupos da escola</p>
+        <h2>Facções escolares</h2>
+        <p>Cada grupo possui cor, símbolo, território e uma forma própria de dominar a Academia Barrowmont.</p>
+      </div>
+
+      <div class="faction-controls reveal" aria-label="Filtro de facções">
+        <button class="chip active" data-filter="all">Todos</button>
+        <button class="chip" data-filter="poder">Poder</button>
+        <button class="chip" data-filter="intelecto">Intelecto</button>
+        <button class="chip" data-filter="rebeldia">Rebeldia</button>
+        <button class="chip" data-filter="esporte">Esporte</button>
+      </div>
+
+      <div class="faction-grid">
+        <article class="faction-card bullies reveal" data-tags="poder">
+          <div class="symbol"><img src="assets/logo-valentoes.png" alt="Símbolo dos Valentões" /></div>
+          <h3>Valentões</h3>
+          <p class="territory">Território: Pátio Central</p>
+          <p>Dominam pela intimidação, presença física e medo. Não controlam dormitórios: o Pátio Central é o palco onde fazem seu nome pesar.</p>
+        </article>
+
+        <article class="faction-card nerds reveal" data-tags="intelecto">
+          <div class="symbol"><img src="assets/logo-nerds.png" alt="Símbolo dos Nerds" /></div>
+          <h3>Nerds</h3>
+          <p class="territory">Território: Biblioteca</p>
+          <p>Usam conhecimento, tecnologia, estratégia e truques para sobreviver em uma escola onde força nem sempre vence inteligência.</p>
+        </article>
+
+        <article class="faction-card athletes reveal" data-tags="esporte poder">
+          <div class="symbol"><img src="assets/logo-atletas.png" alt="Símbolo dos Atletas" /></div>
+          <h3>Atletas</h3>
+          <p class="territory">Território: Ginásio</p>
+          <p>Vivem por disciplina, competição e status esportivo. Possuem influência por representarem a imagem vitoriosa da escola.</p>
+        </article>
+
+        <article class="faction-card punks reveal" data-tags="rebeldia">
+          <div class="symbol"><img src="assets/logo-punks.png" alt="Símbolo dos Punks" /></div>
+          <h3>Punks</h3>
+          <p class="territory">Território: Fábrica Abandonada</p>
+          <p>Anti-sistema, improvisados e imprevisíveis. Encaram a Elite e os Atletas como símbolos de tudo que desejam derrubar.</p>
+        </article>
+
+        <article class="faction-card elites reveal" data-tags="poder">
+          <div class="symbol"><img src="assets/logo-elites.png" alt="Símbolo da Elite" /></div>
+          <h3>Elite</h3>
+          <p class="territory">Território: Mansão Barrowmont e Jardim Nobre</p>
+          <p>Filhos de famílias influentes, cercados por luxo e privilégios. Tratam a academia como extensão de sua herança familiar.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-cup-flags" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <p>Academia Barrowmount é uma criação de Lucas Eduardo (Orochi). Qualquer plágio deste RPG poderá acarretar medidas judiciais.</p>
+    <p class="site-version">Site versão 0.0.1</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+COMO HOSPEDAR O SITE
+
+1. Envie TODOS estes arquivos e pastas para a hospedagem:
+   - index.html
+   - faccoes.html
+   - locais.html
+   - aulas.html
+   - professores.html
+   - style.css
+   - script.js
+   - pasta assets inteira
+
+2. Não envie somente o index.html.
+   As imagens ficam dentro da pasta assets. Se essa pasta não for enviada, as imagens não aparecem.
+
+3. Mantenha a estrutura assim:
+
+   index.html
+   faccoes.html
+   locais.html
+   aulas.html
+   professores.html
+   style.css
+   script.js
+   assets/
+     hero-background.png
+     logo-rpg.png
+     logo-atletas.png
+     logo-elites.png
+     logo-nerds.png
+     logo-punks.png
+     logo-valentoes.png
+     mapa-escola.png
+
+4. Em hospedagens como Netlify, Vercel, GitHub Pages ou Hostinger, publique a pasta inteira.
+   O arquivo index.html precisa ficar na raiz/public_html do site.
